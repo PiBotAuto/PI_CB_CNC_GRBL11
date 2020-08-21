@@ -4,16 +4,17 @@ GRBL v1.1 firmware for PiBot Control Board HW Rev 2.3 and above
 How To Use:
 1. Download and install latest Arduino. E.g. installed to C:\Program Files (x86)\Arduino
 
-2. Add PiBot Board Information to the Arduino. 
+2. Add PiBot Board Information to the Arduino (Optional).
   * Locate "boards.txt" at Arduino install folder. e.g. C:\Program Files (x86)\Arduino\hardware\arduino\avr
   * Edit "boards.txt", add copy and paste the content at the end of this readme. You will need administrator right for doing so, if installed to the default folder. Recommend to use Notepad++ to do this.
    
 3. Locate Arduino library folder, e.g. C:\Program Files (x86)\Arduino\libraries
-  * Copy "PiBot_CNC_GRBL11" folder to library folder, you may need administrator rights.
+  * Copy "PiBot_GRBL11" folder to library folder, you may need administrator rights.
   
-4. Start Arduino IDE, from menu, select "Files" -> "Examples" -> "PiBot_CNC_GRBL11" -> "PiBotUploader".
+4. Start Arduino IDE, from menu, select "Files" -> "Examples" -> "PiBot_GRBL11" -> "PiBotUploader".
 
-5. from menu, select "Tools" -> "Board" -> "PiBot Controller Rev2.x". Then select the correct Port.
+5a. (If you done step 2) From menu, select "Tools" -> "Board" -> "PiBot Controller Rev2.x". Then select the correct Port.
+5b. (If jump over step 2) From menu, select "Tools" -> "Board" -> "Arduino Mega or Mega 2560". Processor select "ATmega2560". Then select the correct Port. 
 
 6. Read the instructions then click Upload.
 
