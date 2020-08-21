@@ -13,11 +13,11 @@ How To Use:
   
 4. Start Arduino IDE, from menu, select "Files" -> "Examples" -> "PiBot_GRBL11" -> "PiBotUploader".
 
-5a. (If you done step 2) From menu, select "Tools" -> "Board" -> "PiBot Controller Rev2.x". Then select the correct Port.
+5. (If you done step 2) From menu, select "Tools" -> "Board" -> "PiBot Controller Rev2.x". Then select the correct Port.
 
-5b. (If jump over step 2) From menu, select "Tools" -> "Board" -> "Arduino Mega or Mega 2560". Processor select "ATmega2560". Then select the correct Port. 
+6. (If jump over step 2) From menu, select "Tools" -> "Board" -> "Arduino Mega or Mega 2560". Processor select "ATmega2560". Then select the correct Port. 
 
-6. Read the instructions then click Upload.
+7. Read the instructions then click Upload.
 
 NOTE: Before Uploading, ensure external stepper drivers are powered OFF. Switch set to "3D".
 
